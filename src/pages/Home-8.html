@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Indie+Flower&family=Quicksand:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Boxcars</title>
+  </head>
+  <body class="">
+    <!-- hero section -->
+    <section id="hero" class="w-full p-[30px]">
+      <div
+        class="h-[820px] bg-[url('../../assets/images/home-8-hero-bg.jpg')] object-cover overflow-hidden rounded-3xl"
+      >
+        <div class="w-[75%] h-full mx-auto">
+          <!-- nav, kindof -->
+          <div class="flex justify-between items-center pt-10">
+            <a href="Home-9.html">
+              <img src="../../assets/icons/home-8-boxcars-icon.png" alt="" />
+            </a>
+
+            <div class="flex items-center gap-2">
+              <img src="../../assets/icons/home-8-user-icon.png" alt="" />
+              <p class="text-white">Sign in</p>
+            </div>
+          </div>
+
+          <!--  -->
+          <p class="mt-[89px] text-[52px] text-white">
+            Let's Find Your Perfect Car
+          </p>
+
+          <!-- hero card -->
+          <div class="bg-white rounded-2xl w-[429px] mt-7 p-[30px]">
+            <!--  -->
+            <div
+              class="mb-8 grid grid-cols-2 border border-black rounded-2xl overflow-hidden"
+            >
+              <div
+                class="bg-black text-white grid place-items-center py-[13px]"
+              >
+                New
+              </div>
+              <div
+                class="text-black bg-white grid place-items-center py-[13px]"
+              >
+                Used
+              </div>
+            </div>
+
+            <!--  -->
+            <div
+              class="flex items-center justify-between border rounded-lg py-1.5 px-4 mb-5"
+            >
+              <div class="flex flex-col gap-1">
+                <p class="text-gray-400 text-[13px]">Select Maker</p>
+                <p class="text-[15px]">Audi</p>
+              </div>
+              <img
+                src="../../assets/icons/home-8-small-arrow-down.png"
+                alt=""
+                class="py-2"
+              />
+            </div>
+            <!--  -->
+            <div
+              class="flex items-center justify-between border rounded-lg py-1.5 px-4 mb-4"
+            >
+              <div class="flex flex-col gap-1">
+                <p class="text-gray-400 text-[13px]">Select Models</p>
+                <p class="text-[15px]">Q7</p>
+              </div>
+              <img
+                src="../../assets/icons/home-8-small-arrow-down.png"
+                alt=""
+                class="py-2"
+              />
+            </div>
+
+            <!-- slider -->
+            <p class="font-semibold text-[18px] mb-2">Select Price</p>
+            <div class="mb-3 flex items-center">
+              <img
+                src="../../assets/icons/home-8-vertical-stripes.png"
+                alt=""
+              />
+              <div class="border-2 w-full h-1 border-black"></div>
+              <img
+                src="../../assets/icons/home-8-vertical-stripes.png"
+                alt=""
+              />
+            </div>
+
+            <div class="flex justify-between mb-5">
+              <p class="bg-indigo-50 text-[#405FF2] py-0.5 px-2.5 rounded-lg">
+                $0
+              </p>
+              <p class="bg-indigo-50 text-[#405FF2] py-0.5 px-2.5 rounded-lg">
+                $250,000
+              </p>
+            </div>
+
+            <!-- button -->
+            <button
+              class="flex justify-center items-center w-full gap-3 bg-[#405FF2] text-white py-4 rounded-2xl text-[15px]"
+            >
+              <img src="../../assets/icons/home-8-search.png" alt="" />Search
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- browse by type -->
+    <section class="w-full px-[30px]">
+      <div class="w-[75%] mx-auto mt-20">
+        <div
+          class="w-full pb-[25px] mb-[15px] flex justify-between items-center"
+        >
+          <p class="text-[40px]">Browse by Type</p>
+          <div class="text-[15px] flex items-center gap-2">
+            View All
+            <img src="../../assets/icons/home-8-arrow-to-top-r.png" alt="" />
+          </div>
+        </div>
+        <!-- category -->
+        <div class="grid grid-cols-9 gap-5 pb-[15px]">
+          <!-- suv -->
+          <div
+            class="grid place-items-center py-5 w-[138px] h-[119.5px] text-gray-800 border-2 border-gray-200 rounded-2xl"
+          >
+            <img src="../../assets/icons/home-8-suv.png" alt="" />
+            <p class="text-[18px]">suv</p>
+          </div>
+          <!-- sedan -->
+          <div
+            class="grid place-items-center py-5 w-[138px] h-[119.5px] text-gray-800 border-2 border-gray-200 rounded-2xl"
+          >
+            <img src="../../assets/icons/home-8-sedan.jpg" alt="" />
+            <p class="text-[18px]">Sedan</p>
+          </div>
+          <!-- hatchback -->
+          <div
+            class="grid place-items-center py-5 w-[138px] h-[119.5px] text-gray-800 border-2 border-gray-200 rounded-2xl"
+          >
+            <img src="../../assets/icons/home-8-hatchback.png" alt="" />
+            <p class="text-[18px]">Hatchback</p>
+          </div>
+          <!-- coupe -->
+          <div
+            class="grid place-items-center py-5 w-[138px] h-[119.5px] text-gray-800 border-2 border-gray-200 rounded-2xl"
+          >
+            <img src="../../assets/icons/home-8-coupe.png" alt="" />
+            <p class="text-[18px]">Coupe</p>
+          </div>
+          <!-- hybrid -->
+          <div
+            class="grid place-items-center py-5 w-[138px] h-[119.5px] text-gray-800 border-2 border-gray-200 rounded-2xl"
+          >
+            <img src="../../assets/icons/home-8-hybrid.png" alt="" />
+            <p class="text-[18px]">Hybrid</p>
+          </div>
+          <!-- convertible -->
+          <div
+            class="grid place-items-center py-5 w-[138px] h-[119.5px] text-gray-800 border-2 border-gray-200 rounded-2xl"
+          >
+            <img src="../../assets/icons/home-8-convertible.png" alt="" />
+            <p class="text-[18px]">Convertible</p>
+          </div>
+          <!-- van -->
+          <div
+            class="grid place-items-center py-5 w-[138px] h-[119.5px] text-gray-800 border-2 border-gray-200 rounded-2xl"
+          >
+            <img src="../../assets/icons/home-8-van.png" alt="" />
+            <p class="text-[18px]">Van</p>
+          </div>
+          <!-- truck -->
+          <div
+            class="grid place-items-center py-5 w-[138px] h-[119.5px] text-gray-800 border-2 border-gray-200 rounded-2xl"
+          >
+            <img src="../../assets/icons/home-8-truck.png" alt="" />
+            <p class="text-[18px]">Truck</p>
+          </div>
+          <!-- electric -->
+          <div
+            class="grid place-items-center py-5 w-[138px] h-[119.5px] text-gray-800 border-2 border-gray-200 rounded-2xl"
+          >
+            <img src="../../assets/icons/home-8-electric.png" alt="" />
+            <p class="text-[18px]">Electric</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- explore -->
+    <section class="w-full px-[30px]">
+      <div class="w-[75%] mx-auto mt-28">
+        <div
+          class="w-full pb-[25px] mb-[15px] flex justify-between items-center"
+        >
+          <p class="text-[40px]">Explore Our Premium Brands</p>
+          <div class="text-[15px] flex items-center gap-2">
+            Show All Brands
+            <img src="../../assets/icons/home-8-arrow-to-top-r.png" alt="" />
+          </div>
+        </div>
+        <!-- list -->
+        <div class="grid grid-cols-10 gap-[30px] pb-[15px]">
+          <!-- audi -->
+          <div class="grid place-items-center">
+            <img src="../../assets/images/home-8-audi.png" alt="" />
+            <p class="text-[18px]">Audi</p>
+          </div>
+          <!-- bmw -->
+          <div class="grid place-items-center">
+            <img src="../../assets/images/home-8-bmw.png" alt="" />
+            <p class="text-[18px]">BMW</p>
+          </div>
+          <!-- ford -->
+          <div class="grid place-items-center">
+            <img src="../../assets/images/home-8-ford.png" alt="" />
+            <p class="text-[18px]">Ford</p>
+          </div>
+          <!-- ford -->
+          <div class="grid place-items-center">
+            <img src="../../assets/images/home-8-mercedes.png" alt="" />
+            <p class="text-[18px]">Mercedes</p>
+          </div>
+          <!-- ford -->
+          <div class="grid place-items-center">
+            <img src="../../assets/images/home-8-peugeot.png" alt="" />
+            <p class="text-[18px]">Peugeot</p>
+          </div>
+          <!-- ford -->
+          <div class="grid place-items-center">
+            <img src="../../assets/images/home-8-volkswagen.png" alt="" />
+            <p class="text-[18px]">Volkswagen</p>
+          </div>
+          <!-- ford -->
+          <div class="grid place-items-center">
+            <img src="../../assets/images/home-8-bentley.png" alt="" />
+            <p class="text-[18px]">Bently</p>
+          </div>
+          <!-- ford -->
+          <div class="grid place-items-center">
+            <img src="../../assets/images/home-8-nissan.png" alt="" />
+            <p class="text-[18px]">Nissan</p>
+          </div>
+          <!-- ford -->
+          <div class="grid place-items-center">
+            <img src="../../assets/images/home-8-jeep.png" alt="" />
+            <p class="text-[18px]">Jeep</p>
+          </div>
+          <!-- ford -->
+          <div class="grid place-items-center">
+            <img src="../../assets/images/home-8-skoda.png" alt="" />
+            <p class="text-[18px]">Skoda</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- featured listings -->
+    <section class="w-full px-[110px] mt-[115px]">
+      <div class="bg-[#F9FBFC] rounded-xl py-[115px] px-[150px]">
+        <div
+          class="w-full pb-[25px] mb-[15px] flex justify-between items-center"
+        >
+          <p class="text-[40px]">Featured Listings</p>
+          <div class="text-[15px] flex items-center gap-2">
+            View All
+            <img src="../../assets/icons/home-8-arrow-to-top-r.png" alt="" />
+          </div>
+        </div>
+        <!-- filters -->
+        <div class="flex gap-[30px] border-b-2">
+          <p class="pt-1 pb-5 border-b-2 border-[#405FF2]">In Stock</p>
+          <p class="pt-1 pb-5">New Cars</p>
+          <p class="pt-1 pb-5">Used Cars</p>
+        </div>
+        <!-- listings -->
+        <div class="mt-[50px] grid grid-cols-4 gap-[30px]">
+          <!-- car 1 -->
+          <div class="rounded-2xl border border-[#E9E9E9] overflow-hidden h-96">
+            <div class="h-[55%] relative">
+              <img
+                src="../../assets/images/cars/ford-transit.png"
+                alt="ford transit"
+                class="object-center object-cover w-full h-full"
+              />
+              <div class="flex justify-between absolute top-5 w-full px-5">
+                <div
+                  class="flex items-center py-1 px-3 bg-[#3D923A] rounded-full text-white text-sm font-thin"
+                >
+                  Great Price
+                </div>
+
+                <button
+                  class="w-9 h-9 rounded-full bg-white grid place-items-center"
+                >
+                  <img src="../../assets/icons/home-8-bookmark.png" alt="" />
+                </button>
+              </div>
+            </div>
+
+            <div class="h-[45%] bg-white py-4 px-[31px]">
+              <p class="text-[18px] mb-1">Ford Transit – 2021</p>
+              <ul class="flex gap-2 text-sm">
+                <li>2500 Miles</li>
+                <li
+                  class="relative before:content-['•'] before:mx-2 before:text-gray-400"
+                >
+                  Diesel
+                </li>
+                <li
+                  class="relative before:content-['•'] before:mx-2 before:text-gray-400"
+                >
+                  Manual
+                </li>
+              </ul>
+              <p class="text-[20px] mt-5">$22,000</p>
+              <a
+                class="text-[#405FF2] text-[15px] flex gap-2 items-center mt-2"
+              >
+                View Detials
+                <img
+                  src="../../assets/icons/home-8-arrow-to-top-r-blue.png"
+                  alt=""
+                  class="h-[14px]"
+                />
+              </a>
+            </div>
+          </div>
+          <!-- car 2 -->
+          <div class="rounded-2xl border border-[#E9E9E9] overflow-hidden h-96">
+            <div class="h-[55%] relative">
+              <img
+                src="../../assets/images/cars/new-glc-2023.png"
+                alt="new glc"
+                class="object-center object-cover w-full h-full"
+              />
+              <div class="flex justify-between absolute top-5 w-full px-5">
+                <div
+                  class="flex items-center py-1 px-3 bg-[#405FF2] rounded-full text-white text-sm font-thin"
+                >
+                  Low Mileage
+                </div>
+
+                <button
+                  class="w-9 h-9 rounded-full bg-white grid place-items-center"
+                >
+                  <img src="../../assets/icons/home-8-bookmark.png" alt="" />
+                </button>
+              </div>
+            </div>
+
+            <div class="h-[45%] bg-white py-4 px-[31px]">
+              <p class="text-[18px] mb-1">New GLC – 2023</p>
+              <ul class="flex gap-2 text-sm">
+                <li>50 Miles</li>
+                <li
+                  class="relative before:content-['•'] before:mx-2 before:text-gray-400"
+                >
+                  Petrol
+                </li>
+                <li
+                  class="relative before:content-['•'] before:mx-2 before:text-gray-400"
+                >
+                  Automatic
+                </li>
+              </ul>
+              <p class="text-[20px] mt-5">$95,000</p>
+              <a
+                class="text-[#405FF2] text-[15px] flex gap-2 items-center mt-2"
+              >
+                View Detials
+                <img
+                  src="../../assets/icons/home-8-arrow-to-top-r-blue.png"
+                  alt=""
+                  class="h-[14px]"
+                />
+              </a>
+            </div>
+          </div>
+          <!-- car 3 -->
+          <div class="rounded-2xl border border-[#E9E9E9] overflow-hidden h-96">
+            <div class="h-[55%] relative">
+              <img
+                src="../../assets/images/cars/audi-a6.png"
+                alt="audi a6"
+                class="object-center object-cover w-full h-full"
+              />
+              <div class="flex absolute right-0 top-5 w-full px-5">
+                <!-- <p
+                  class="flex items-center py-1 px-3 bg-[#3D923A] rounded-full text-white text-sm font-thin"
+                >
+                  Great Price
+                </p> -->
+
+                <button
+                  class="w-9 h-9 rounded-full bg-white grid place-items-center absolute right-5"
+                >
+                  <img src="../../assets/icons/home-8-bookmark.png" alt="" />
+                </button>
+              </div>
+            </div>
+
+            <div class="h-[45%] bg-white py-4 px-[31px]">
+              <p class="text-[18px] mb-1">Audi A6 3.5 – New</p>
+              <ul class="flex gap-2 text-sm">
+                <li>100 Miles</li>
+                <li
+                  class="relative before:content-['•'] before:mx-2 before:text-gray-400"
+                >
+                  Petrol
+                </li>
+                <li
+                  class="relative before:content-['•'] before:mx-2 before:text-gray-400"
+                >
+                  Automatic
+                </li>
+              </ul>
+              <p class="text-[20px] mt-5">$58,000</p>
+              <a
+                class="text-[#405FF2] text-[15px] flex gap-2 items-center mt-2"
+              >
+                View Detials
+                <img
+                  src="../../assets/icons/home-8-arrow-to-top-r-blue.png"
+                  alt=""
+                  class="h-[14px]"
+                />
+              </a>
+            </div>
+          </div>
+          <!-- car 4 -->
+          <div class="rounded-2xl border border-[#E9E9E9] overflow-hidden h-96">
+            <div class="h-[55%] relative">
+              <img
+                src="../../assets/images/cars/corolla-altis-2023.png"
+                alt="corolla-altis-2023"
+                class="object-center object-cover w-full h-full"
+              />
+              <div class="flex absolute right-0 top-5 w-full px-5">
+                <!-- <p
+                  class="flex items-center py-1 px-3 bg-[#3D923A] rounded-full text-white text-sm font-thin"
+                >
+                  Great Price
+                </p> -->
+
+                <button
+                  class="w-9 h-9 rounded-full bg-white grid place-items-center absolute right-5"
+                >
+                  <img src="../../assets/icons/home-8-bookmark.png" alt="" />
+                </button>
+              </div>
+            </div>
+
+            <div class="h-[45%] bg-white py-4 px-[31px]">
+              <p class="text-[18px] mb-1">Corolla Altis – 2023</p>
+              <ul class="flex gap-2 text-sm">
+                <li>15000 Miles</li>
+                <li
+                  class="relative before:content-['•'] before:mx-2 before:text-gray-400"
+                >
+                  Petrol
+                </li>
+                <li
+                  class="relative before:content-['•'] before:mx-2 before:text-gray-400"
+                >
+                  CVT
+                </li>
+              </ul>
+              <p class="text-[20px] mt-5">$45,000</p>
+              <a
+                class="text-[#405FF2] text-[15px] flex gap-2 items-center mt-2"
+              >
+                View Detials
+                <img
+                  src="../../assets/icons/home-8-arrow-to-top-r-blue.png"
+                  alt=""
+                  class="h-[14px]"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex gap-[25px] mt-[50px]">
+          <button
+            class="w-[60px] h-10 grid place-items-center bg-white border rounded-full"
+          >
+            <img src="../../assets/icons/small-left-arrow.png" alt="" />
+          </button>
+          <button
+            class="w-[60px] h-10 grid place-items-center bg-white border rounded-full"
+          >
+            <img src="../../assets/icons/small-right-arrow.png" alt="" />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- self promo -->
+    <section class="w-full px-[110px] mt-[115px]">
+      <div class="rounded-xl px-[150px]">
+        <div class="w-full pb-[25px] mb-[15px] grid grid-cols-2">
+          <div class="">
+            <p class="text-[40px] w-72 mb-5">Why Electric Vehicles?</p>
+            <p class="text-[15px] w-[500px]">
+              We are committed to providing our customers with exceptional
+              service, competitive pricing, and a wide range of.
+            </p>
+            <button
+              class="mt-10 text-white bg-[#405FF2] flex text-[15px] w-[160px] h-14 items-center justify-center rounded-2xl gap-2"
+            >
+              Get Started
+              <img
+                src="../../assets/icons/home-8-arrow-to-top-r-white.png"
+                alt=""
+                class="w-[14px] h-[14px]"
+              />
+            </button>
+          </div>
+          <!-- the 4 points -->
+          <div class="grid grid-cols-2 gap-[45px]">
+            <!-- first col -->
+            <div class="grid grid-rows-2 gap-[45px]">
+              <div class="space-y-5">
+                <img
+                  src="../../assets/icons/home-8-finance.png"
+                  alt=""
+                  class=""
+                />
+                <p class="text-[20px]">Special Financing Offers</p>
+                <p class="text-[15px]">
+                  Our stress-free finance department that can find financial
+                  solutions to save you money.
+                </p>
+              </div>
+              <!-- another -->
+              <div class="space-y-5">
+                <img
+                  src="../../assets/icons/home-8-pricing.png"
+                  alt=""
+                  class=""
+                />
+                <p class="text-[20px]">Transparent Pricing</p>
+                <p class="text-[15px]">
+                  Our stress-free finance department that can find financial
+                  solutions to save you money.
+                </p>
+              </div>
+            </div>
+            <!-- sec col -->
+            <div class="grid grid-rows-2 gap-[46px]">
+              <div class="space-y-5">
+                <img
+                  src="../../assets/icons/home-8-trust.png"
+                  alt=""
+                  class=""
+                />
+                <p class="text-[20px]">Special Financing Offers</p>
+                <p class="text-[15px]">
+                  Our stress-free finance department that can find financial
+                  solutions to save you money.
+                </p>
+              </div>
+              <!-- another -->
+              <div class="space-y-5">
+                <img
+                  src="../../assets/icons/home-8-service.png"
+                  alt=""
+                  class=""
+                />
+                <p class="text-[20px]">Transparent Pricing</p>
+                <p class="text-[15px]">
+                  Our stress-free finance department that can find financial
+                  solutions to save you money.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog section -->
+    <section class="w-full px-[110px] mt-[200px]">
+      <div class="rounded-xl px-[150px]">
+        <div
+          class="w-full pb-[25px] mb-[15px] flex justify-between items-center"
+        >
+          <p class="text-[40px]">Browse by Type</p>
+          <div class="text-[15px] flex items-center gap-2">
+            View All
+            <img src="../../assets/icons/home-8-arrow-to-top-r.png" alt="" />
+          </div>
+        </div>
+
+        <div class="grid grid-cols-3 gap-[30px]">
+          <!-- blog1 -->
+          <div class="">
+            <div class="rounded-2xl h-[298px] overflow-hidden relative">
+              <img
+                src="../../assets/images/cars/bmw-alpina-xb7.png"
+                alt=""
+                class="object-cover w-full h-full"
+              />
+              <div
+                class="bg-white rounded-full px-[15px] py-2 absolute top-0 m-5"
+              >
+                Sound
+              </div>
+            </div>
+            <ul class="flex gap-2 text-sm mt-5">
+              <li>Admin</li>
+              <li
+                class="relative before:content-['•'] before:mx-2 before:text-gray-400"
+              >
+                November 22, 2023
+              </li>
+            </ul>
+            <p class="text-[20px] mt-3">
+              2024 BMW ALPINA XB7 with exclusive details, extraordinary
+            </p>
+          </div>
+          <!-- blog2 -->
+          <div class="">
+            <div class="rounded-2xl h-[298px] overflow-hidden relative">
+              <img
+                src="../../assets/images/cars/bmw-x6-m50i.png"
+                alt=""
+                class="object-cover w-full h-full"
+              />
+              <div
+                class="bg-white rounded-full px-[15px] py-2 absolute top-0 m-5"
+              >
+                Accessories
+              </div>
+            </div>
+            <ul class="flex gap-2 text-sm mt-5">
+              <li>Admin</li>
+              <li
+                class="relative before:content-['•'] before:mx-2 before:text-gray-400"
+              >
+                November 22, 2023
+              </li>
+            </ul>
+            <p class="text-[20px] mt-3">
+              BMW X6 M50i is designed to exceed your sportiest.
+            </p>
+          </div>
+          <!-- blog3 -->
+          <div class="">
+            <div class="rounded-2xl h-[298px] overflow-hidden relative">
+              <img
+                src="../../assets/images/cars/bmw-x5-gold.png"
+                alt=""
+                class="object-cover w-full h-full"
+              />
+              <div
+                class="bg-white rounded-full px-[15px] py-2 absolute top-0 m-5"
+              >
+                Exterior
+              </div>
+            </div>
+            <ul class="flex gap-2 text-sm mt-5">
+              <li>Admin</li>
+              <li
+                class="relative before:content-['•'] before:mx-2 before:text-gray-400"
+              >
+                November 22, 2023
+              </li>
+            </ul>
+            <p class="text-[20px] mt-3">
+              BMW X5 Gold 2024 Sport Review: Light on Sport
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full px-[260px] mt-24">
+      <div
+        class="bg-[#405FF2] rounded-2xl grid grid-cols-10 h-[395px] overflow-hidden"
+      >
+        <div class="bg-[#3551D7] grid place-items-center col-span-3">
+          <img
+            src="../../assets/images/home-8-mailbox.png"
+            alt=""
+            class="p-5 object-cover"
+          />
+        </div>
+        <div class="col-span-7">
+          <div class="pl-[30%] pr-[15%] space-y-5">
+            <p
+              class="text-white text-[40px] mt-16 pr-[10%] font-semibold leading-[45px]"
+            >
+              Subscribe To Our Mailing List And Stay Up To Date
+            </p>
+            <p class="text-white text-[15px] mt-5 pr-[10%]">
+              We’ll keep you updated with the best new jobs.
+            </p>
+            <div
+              class="flex gap-3 mt-5 bg-gray-800 bg-opacity-20 rounded-2xl py-2 px-2"
+            >
+              <input
+                type="text"
+                placeholder="Your email address"
+                class="w-[70%] px-5 bg-transparent text-white text-[15px]"
+              />
+              <button class="w-[30%] h-14 bg-white text-[#405FF2] rounded-2xl">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="w-full mt-52">
+      <div class="grid grid-cols-5 gap-[30px] py-[55px] mx-[260px]">
+        <div class="space-y-5">
+          <p class="text-[20px] font-semibold">Company</p>
+          <ul class="space-y-4 text-sm">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="space-y-5">
+          <p class="text-[20px] font-semibold">Quick Links</p>
+          <ul class="space-y-4 text-sm">
+            <li><a href="#">Get in Touch</a></li>
+            <li><a href="#">Help center</a></li>
+            <li><a href="#">Live chat</a></li>
+            <li><a href="#">How it works</a></li>
+          </ul>
+        </div>
+        <div class="space-y-5">
+          <p class="text-[20px] font-semibold">Our Brands</p>
+          <ul class="space-y-4 text-sm">
+            <li><a href="#">Toyota</a></li>
+            <li><a href="#">Porsche</a></li>
+            <li><a href="#">Audi</a></li>
+            <li><a href="#">BMW</a></li>
+            <li><a href="#">Ford</a></li>
+            <li><a href="#">Nissan</a></li>
+            <li><a href="#">Peugeot</a></li>
+            <li><a href="#">Volkswagen</a></li>
+          </ul>
+        </div>
+        <div class="space-y-5">
+          <p class="text-[20px] font-semibold">Vehicles Type</p>
+          <ul class="space-y-4 text-sm">
+            <li><a href="#">Sedan</a></li>
+            <li><a href="#">Hatchback</a></li>
+            <li><a href="#">SUV</a></li>
+            <li><a href="#">Hybrid</a></li>
+            <li><a href="#">Electric</a></li>
+            <li><a href="#">Coupe</a></li>
+            <li><a href="#">Truck</a></li>
+            <li><a href="#">Convertible</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="space-y-5">
+            <p class="text-[20px] font-semibold">Sale Hours</p>
+            <ul class="space-y-4 text-sm">
+              <li>Monday - Friday: 09:00AM - 09:00PM</li>
+              <li>Satruday: 09:00AM - 07:00PM</li>
+              <li>Sunday: Closed</li>
+            </ul>
+          </div>
+
+          <div class="mt-8">
+            <p class="text-[20px] font-semibold">Connect With Us</p>
+            <div class="flex gap-8 mt-7 items-center">
+              <a href="#"
+                ><img src="../../assets/icons/home-8-facebook-icon.png" alt=""
+              /></a>
+              <a href="#"
+                ><img src="../../assets/icons/home-8-twitter-icon.png" alt=""
+              /></a>
+              <a href="#"
+                ><img src="../../assets/icons/home-8-instagram-icon.png" alt=""
+              /></a>
+              <a href="#"
+                ><img src="../../assets/icons/home-8-linkedin-icon.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+      <div class="w-full bg-white py-9 px-[260px] border-t border-gray-200">
+        <div class="container mx-auto flex items-center justify-between">
+          <!-- left -->
+          <p class="text-sm">© 2023 Boxcars.com. All rights reserved.</p>
+
+          <!-- Rihgt -->
+          <div class="flex space-x-4 text-sm">
+            <a href="#" class="hover:text-gray-900">Terms & Conditions</a>
+            <span>•</span>
+            <a href="#" class="hover:text-gray-900">Privacy Notice</a>
+          </div>
+        </div>
+
+        <!-- Scroll to Top Button -->
+        <a
+          href="#hero"
+          class="fixed bottom-6 right-6 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center shadow-md hover:bg-blue-700 transition scroll-smooth"
+        >
+          <img src="../../assets/icons/arrow-up-whate.png" alt="" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
